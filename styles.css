@@ -1,0 +1,20 @@
+<style>
+  .image {
+    width: 100px;
+    
+  }
+  .thick-blue-border {
+    border-color: rgb(73, 62, 221);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 100%;
+    width:100px;
+    height: 100px;
+  }
+ h1 { color:rgb(89, 89, 221); }
+ .silver-background {
+  background-color: rgb(200, 186, 186);}
+h3 {color:rgb(73, 73, 187);}
+ 
+
+</style>
