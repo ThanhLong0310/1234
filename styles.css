@@ -1,7 +1,6 @@
 
   .image {
     width: 100px;
-    
   }
   .thick-blue-border {
     border-color: rgb(73, 62, 221);
@@ -11,10 +10,36 @@
     width:100px;
     height: 100px;
   }
- h1 { color:rgb(89, 89, 221); }
- .silver-background {
-  background-color: rgb(200, 186, 186);}
-h3 {color:rgb(73, 73, 187);}
+  h1 { color:rgb(89, 89, 221); }
+  .head-side{
+  background-color: rgb(245, 245, 220);
+  padding: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 20px ;
+  text-align:left;
+  
+  border-radius: 3%;
+}
+h3 {color:rgb(73, 73, 187);
+text-align:left;}
+.body-side {
+   padding: 20px 20px 20px 20px;
+   margin: 20px 20px 20px 20px ;
+   background-color: rgb(253, 253, 249);
+   text-align: left;
+}
+div.head-side > p { 
+  font-family:monospace;
+  color:black;
+  font-size:14px;
+}
 
- 
+div.body-side  p { 
+  font-family:monospace ;
+  font-size : 14px ;
+  color:black
+}
 
+div.head-side + p { 
+  color:blue;
+  font-size:20px;
+}
